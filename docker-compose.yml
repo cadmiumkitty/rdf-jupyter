@@ -1,0 +1,12 @@
+version: '3'
+services:
+  fuseki:
+    image: stain/jena-fuseki
+    ports:
+      - "3030:3030"
+    environment:
+      - ADMIN_PASSWORD=password
+  jupyter:
+    image: cadmiumkitty/jupytersparql
+    ports:
+      - "8888:8888"
