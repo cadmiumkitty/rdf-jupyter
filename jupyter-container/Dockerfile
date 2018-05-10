@@ -5,3 +5,4 @@ RUN pip install sparqlkernel
 RUN jupyter sparqlkernel install --user
 RUN pip install rdfpandas
 RUN pip install gastrodon
+RUN pip install ipython-sparql

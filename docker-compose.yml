@@ -10,3 +10,5 @@ services:
     image: cadmiumkitty/jupytersparql
     ports:
       - "8888:8888"
+    volumes:
+      - "./work:/home/jovyan/work"
